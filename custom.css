@@ -1,0 +1,127 @@
+body {
+    color: #6c757d;
+    font-family: 'Roboto', 'Courier New', Courier, monospace !important;
+  }
+.navbar{
+    background:rgb(189, 93, 56);
+}
+
+#nav-link{
+color: white;
+font-weight: 500;
+}
+
+.font-primary{
+   color:rgb(189, 93, 56);
+}
+
+.background-primary{
+    background:rgb(189, 93, 56);
+}
+.font-grey{
+    color: #343a40
+}
+
+#name{
+    font-size: 5vw;
+}
+
+.navbar-fixed-left {
+    height: 100vh;
+    width: 25%;
+    position: fixed;
+    border-radius: 0;
+    height: 100%;
+    }
+    
+    .navbar-fixed-left .navbar-nav > li {
+    float: none;  /* Cancel default li float: left */
+    width: 139px;
+    }
+    
+    .navbar-fixed-left + .container {
+    padding-left: 160px;
+    }
+    
+    /* On using dropdown menu (To right shift popuped) */
+    .navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+    margin-top: -50px;
+    margin-left: 140px;
+    }
+
+   
+
+    a {
+        color: #428BCA;
+        text-decoration: underline;
+    }
+
+    #experience{
+        margin-top: 15vh;
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+          background-color: rgb(189, 93, 56);
+          color: white;
+      }
+      
+      .fa-facebook {
+        background: rgb(108, 117, 125);
+        color: white;
+      }
+      
+      .fa-twitter {
+        background: rgb(108, 117, 125);
+        color: white;
+      }
+      
+      .fa-google {
+        background: rgb(108, 117, 125);
+        color: white;
+      }
+      
+      .fa-linkedin {
+        background: rgb(108, 117, 125);
+        color: white;
+      }
+      
+      .fa-instagram {
+        background: rgb(108, 117, 125);
+        color: white;
+      }
+
+      #header{
+          color: #343a40 !important;
+          margin-bottom: 10vh;
+      }
+
+      #experience h1, #education h1, #skills h1, #interests h1{
+        color: #343a40;
+      }
+
+      #programming-icons i{
+        padding: 20px;
+        font-size: 50px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+
+      h3{
+          color: rgb(52, 58, 64) !important;
+      }
+
+      h4{
+          color: rgb(108, 117, 125) !important;
+      }
